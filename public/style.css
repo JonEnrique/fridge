@@ -9,16 +9,15 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(10, minmax(200px, auto));
     /* grid-auto-rows: minmax(200px, auto); */
-    /* grid-column-gap: 20px; */
-    /* grid-row-gap: 20px; */
-    max-width: full;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    max-width: 90%;
     margin: 0 auto;
 }
 
 #content div{
     background: #3bbced;
     padding: 30px;
-    margin: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
