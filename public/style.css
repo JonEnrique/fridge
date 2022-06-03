@@ -11,7 +11,7 @@ body{
     /* grid-auto-rows: minmax(200px, auto); */
     grid-column-gap: 20px;
     grid-row-gap: 20px;
-    max-width: 90%;
+    max-width: 95%;
     margin: 0 auto;
 }
 
