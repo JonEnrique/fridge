@@ -7,7 +7,7 @@ body{
 #content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    max-width: 960px;
+    max-width: full;
     margin: 0 auto;
 }
 
