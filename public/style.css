@@ -9,8 +9,8 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(10, minmax(200px, auto));
     /* grid-auto-rows: minmax(200px, auto); */
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    /* grid-column-gap: 20px; */
+    /* grid-row-gap: 20px; */
     max-width: full;
     margin: 0 auto;
 }
@@ -18,7 +18,7 @@ body{
 #content div{
     background: #3bbced;
     padding: 30px;
-    margin: 20px;
+    margin: 30px;
 }
 
 #content div:nth-child(even){
