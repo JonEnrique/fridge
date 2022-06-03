@@ -28,17 +28,3 @@
     margin: 0 auto;
     padding: 0 0px;
   }
-  
-  #navbar__logo{
-    background-color: rgb(50, 72, 81);
-    background-size: 100%;
-    background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 1.5rem;
-  }
