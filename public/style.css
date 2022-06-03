@@ -7,6 +7,8 @@ body{
 #content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(10, minmax(200px, auto));
+    /* grid-auto-rows: minmax(200px, auto); */
     max-width: full;
     margin: 0 auto;
 }
@@ -14,7 +16,6 @@ body{
 #content div{
     background: #3bbced;
     padding: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #content div:nth-child(even){
