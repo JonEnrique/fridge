@@ -65,3 +65,9 @@ body{
 #content div:nth-child(even){
     background: #777;
 }
+
+@media screen and (max-width: 512px) {
+  .wrapper {
+      grid-template-columns: 1fr;
+  }
+}
