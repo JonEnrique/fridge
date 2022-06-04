@@ -88,10 +88,9 @@ body{
 
 .four {
   grid-column: 1 / 3;
-  background-image: url(images/ducks.jpg);
 }
 
-#content div:fourth-child{
+#content div:nth-child(4){
   background-image: url(imgthree.jpg);
   background-size: cover;
 }
