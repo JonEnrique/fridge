@@ -72,8 +72,7 @@ body{
 
 #content div:first-child{
   background-image: url(testing.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .two {
