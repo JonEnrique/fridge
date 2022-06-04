@@ -8,7 +8,6 @@ addTask(task, date, "26/03/2021", "Low", ["1", "30"], false);
 
 // Log out the newly populated taskList everytime the button has been pressed
 console.log(taskList);
-})
 
 // Create an empty array to store our tasks
 var taskList = [];
