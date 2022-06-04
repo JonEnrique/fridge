@@ -112,6 +112,42 @@ body{
   grid-row: 3 / 5;
 }
 
+.container {
+  width: 800px;
+  margin: 39px auto;
+  color: #fff;
+  text-align: center;
+}
+h1, h2, h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 2.6rem;
+  text-transform: capitalize;
+}
+#seconds,
+#tens {
+  font-size: 2em;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+  outline: none;
+}
+
+button:hover{
+  background: #fff;
+  color: #3bbced;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+
 .eight {
   grid-column: 3 / 5;
 }
