@@ -65,7 +65,7 @@ body{
 }
 
 #content div:nth-child(even){
-    background: #fff;
+    background: #3bbced;
 }
 
 .one {
@@ -92,7 +92,7 @@ body{
 }
 
 label {
-  color: #7fb7cf;
+  color: #fff;
   margin-top: 10px;
   display: block;
 }
@@ -102,7 +102,6 @@ input {
   margin-top: 5px;
   border-radius: 5px;
   border: 0;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 select {
@@ -142,14 +141,6 @@ select {
   grid-row: 3 / 5;
 }
 
-.eight {
-  grid-column: 3 / 5;
-}
-
-#content div:nth-child(8){
-  background: #7fb7cf;
-}
-
 .container {
   margin: 5px auto;
   color: #fff;
@@ -180,11 +171,15 @@ button {
 
 button:hover{
   background: #fff;
-  color: #7fb7cf;
+  color: #3bbced;
   font-weight: 800;
   text-transform: capitalize;
 }
 
+
+.eight {
+  grid-column: 3 / 5;
+}
 
 @media screen and (max-width: 512px) {
   .content {
