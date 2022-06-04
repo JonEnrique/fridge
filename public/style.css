@@ -113,8 +113,7 @@ body{
 }
 
 .eight {
-  grid-column: 5 / 7;
-  grid-row: 3 / 5;
+  grid-column: 3 / 5;
 }
 
 @media screen and (max-width: 512px) {
