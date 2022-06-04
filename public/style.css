@@ -81,3 +81,8 @@ body{
   grid-column: 3 / 5;
   background-image: url(images/ducks.jpg);
 }
+
+.three {
+  grid-column: 5 / 7;
+  background-image: url(images/ducks.jpg);
+}
