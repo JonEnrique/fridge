@@ -71,7 +71,7 @@ body{
 }
 
 #content div:first-child{
-  background-image: url(testing.jpg);
+  background-image: url(imgone.jpg);
   background-size: cover;
 }
 
