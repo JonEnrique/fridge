@@ -76,6 +76,12 @@ body{
   background-size: cover;
 }
 
+label {
+  color: #B4886B;
+  font-weight: bold;
+  display: block;
+}
+
 .two {
   grid-column: 3 / 5;
   grid-row: 1 / 3;
