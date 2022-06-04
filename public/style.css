@@ -73,5 +73,6 @@ body{
 }
 
 .one {
+  height: 50px;
   background-image: url(images/ducks.jpg);
 }
