@@ -19,14 +19,12 @@
 }
 
 .navbar__container {
-  display: block;
+  display: flex;
   justify-content: space-between;
   height: 80px;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
-  margin-left: auto;
-  margin-right: auto;
   margin: 0 auto;
   padding: 0 0px;
 }
@@ -34,6 +32,8 @@
 #navbar__logo{
   background-color: #fff;
   color: #000;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body{
