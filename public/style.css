@@ -86,7 +86,7 @@ body{
 
 .four {
   grid-column: 1 / 3;
-  grid-row: 2 / 6;
+  grid-row: 2 / 5;
 }
 
 .five {
@@ -95,6 +95,15 @@ body{
 
 #content div:nth-child(5){
   background-image: url(imgthree.jpg);
+  background-size: cover;
+}
+
+.six {
+  grid-column: 3 / 5;
+}
+
+#content div:nth-child(6){
+  background-image: url(imgtwo.jpg);
   background-size: cover;
 }
 
