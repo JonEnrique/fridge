@@ -67,8 +67,8 @@ body{
 }
 
 .one {
-  grid-column: 1 / 3;
   background-image: url(testing.jpg);
+  grid-column: 1 / 3;
 }
 
 .two {
