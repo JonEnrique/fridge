@@ -143,11 +143,6 @@ select {
   grid-column: 3 / 5;
 }
 
-#content div:nth-child(6) {
-  background-image: url(imgtwo.jpg);
-  background-size: cover;
-}
-
 .seven {
   grid-column: 5 / 7;
   grid-row: 3 / 5;
@@ -188,6 +183,11 @@ button:hover {
 
 .eight {
   grid-column: 3 / 5;
+}
+
+#content div:nth-child(8) {
+  background-image: url(imgtwo.jpg);
+  background-size: cover;
 }
 
 @media screen and (max-width: 512px) {
