@@ -113,7 +113,7 @@ body{
 }
 
 .container {
-  width: 400px;
+  width:max-content;
   margin: 5px auto;
   color: #fff;
   text-align: center;
