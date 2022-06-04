@@ -83,6 +83,10 @@ label {
   display: block;
 }
 
+input {
+  border: 0;
+}
+
 .two {
   grid-column: 3 / 5;
   grid-row: 1 / 3;
