@@ -74,7 +74,7 @@ body{
 
 .one {
   grid-column: 1 / 3;
-  background-color: #3bbced;
+  background: #3bbced;
 }
 
 .two {
