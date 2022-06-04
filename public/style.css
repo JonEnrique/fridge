@@ -116,7 +116,7 @@ input {
 }
 
 seven > input {
-  width: 75%;
+  width: 250px;
 }
 
 select {
