@@ -80,10 +80,17 @@ body{
 label {
   color: #fff;
   margin-top: 10px;
-  display: block;
+  display: inline;
 }
 
 input {
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 0;
+}
+
+select {
   height: 30px;
   margin-top: 5px;
   border-radius: 5px;
