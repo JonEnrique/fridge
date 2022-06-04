@@ -91,6 +91,11 @@ body{
   background-image: url(images/ducks.jpg);
 }
 
+#content div:fourth-child{
+  background-image: url(imgthree.jpg);
+  background-size: cover;
+}
+
 .five {
   grid-column: 5 / 7;
 }
