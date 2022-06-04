@@ -93,6 +93,9 @@ body{
   font-size: 50px;
 }
 
+two > button {
+  text-align: center;
+}
 
 .three {
   grid-column: 5 / 7;
