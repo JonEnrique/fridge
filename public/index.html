@@ -108,7 +108,38 @@
       </section>
 
     </div>
-    <div class="nine"> 9 </div>
+    <div class="nine"> 
+      <div class="container" id="bookmarks-container"></div>
+
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+      <div class="modal">
+        <i class="fas fa-times close-icon" id="close-model"></i>
+        <div class="modal-header">
+          <h3>Add Bookmark</h3>
+        </div>
+        <div class="modal-content">
+          <form id="bookmark-form">
+            <!-- website Name -->
+            <div class="from-group">
+              <label for="website-name" class="form-label">Website Name</label>
+              <input type="text" class="form-input" id="website-name" />
+            </div>
+            <!-- website URL -->
+            <div class="from-group">
+              <label for="website-url" class="form-label">Website URL</label>
+              <input type="text" class="form-input" id="website-url" />
+            </div>
+            <button type="submit"> Save </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script connection -->
+    <script src="readinglist.js"></script>
+      
+    </div>
     <div class="ten"> 10 </div>
     <div class="eleven"> 11 </div>
     <div class="twelve"> 12 </div>
