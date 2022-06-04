@@ -74,7 +74,7 @@ body{
 
 .one {
   grid-column: 1 / 3;
-  background-image: url(images/ducks.jpg);
+  background-image: url(testing.jpeg);
 }
 
 .two {
