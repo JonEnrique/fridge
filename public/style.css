@@ -32,6 +32,7 @@
 #navbar__logo{
   background-color: #fff;
   color: #7fb7cf;
+  font-weight: bold;
   margin: 0 auto;
   margin-top: 30px;
   text-decoration: none;
@@ -77,7 +78,7 @@ body{
 }
 
 label {
-  color: #B4886B;
+  color: #fff;
   font-weight: bold;
   display: block;
 }
