@@ -65,7 +65,7 @@ body{
 }
 
 #content div:nth-child(even){
-    background: #3bbced;
+    background: #fff;
 }
 
 .one {
