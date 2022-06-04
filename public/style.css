@@ -66,12 +66,6 @@ body{
     background: #3bbced;
 }
 
-@media screen and (max-width: 512px) {
-    .content {
-        grid-template-columns: 1fr;
-    }
-}
-
 .one {
   grid-column: 1 / 3;
   background-image: url(testing.jpg);
@@ -95,4 +89,10 @@ body{
 
 .five {
   grid-column: 5 / 7;
+}
+
+@media screen and (max-width: 512px) {
+  .content {
+      grid-template-columns: 1fr;
+  }
 }
