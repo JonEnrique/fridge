@@ -51,13 +51,11 @@ function renderTask(task){
   delButton.appendChild(delButtonText);
   item.appendChild(delButton);
 
-
   // Event Listeners for DOM elements
   delButton.addEventListener("click", function(event){
     event.preventDefault();
     item.remove();
   })
-
 
   // Clear the input form
   form.reset();
