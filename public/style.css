@@ -55,11 +55,6 @@ body{
     margin-top: 30px;
 }
 
-.one {
-  background-image: url(testing.jpg);
-  grid-column: 1 / 3;
-}
-
 #content div{
     background: #ffffff;
     padding: 30px;
@@ -67,10 +62,14 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#content div:nth-child(even){
+#content div:first-child{
     background: #3bbced;
 }
 
+.one {
+  grid-column: 1 / 3;
+  background-image: url(testing.jpg);
+}
 
 .two {
   grid-column: 3 / 5;
