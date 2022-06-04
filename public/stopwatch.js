@@ -7,22 +7,22 @@ var buttonStop = document.getElementById("button-stop");
 var buttonReset = document.getElementById("button-reset");
 var interval;
 
-function startTimer(){
+function startTimer() {
     tens++;
 
-    if(tens<9){
+    if (tens < 9) {
         appendTens.innerHTML = "0" + tens;
     }
-    if (tens>9){
+    if (tens > 9) {
         appendTens.innerHTML = tens;
     }
-    if (tens>99){
+    if (tens > 99) {
         seconds++;
         appendSeconds.innerHTML = "0" + seconds;
         tens = 0;
         appendTens.innerHTML = "0" + 0;
     }
-    if (seconds > 9){
+    if (seconds > 9) {
         appendSeconds.innerHTML = seconds;
     }
 }
@@ -31,11 +31,11 @@ buttonStart.onclick = function () {
     interval = setInterval(startTimer);
 };
 
-buttonStop.onclick = function(){
+buttonStop.onclick = function () {
     clearInterval(interval);
 };
 
-buttonReset.onclick = function (){
+buttonReset.onclick = function () {
     clearInterval(interval);
     tens = "00";
     seconds = "00";

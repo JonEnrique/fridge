@@ -8,7 +8,7 @@ var completionTimeInput = document.getElementById("completionTimeInput");
 var estimatedTimeInput = document.getElementById("estimatedTimeInput");
 var priorityInput = document.getElementById("priorityInput");
 
-form.addEventListener("submit", function(event){
+form.addEventListener("submit", function (event) {
   event.preventDefault();
   let task = taskInput.value;
   let dueDate = dueDateInput.value;
@@ -38,7 +38,7 @@ function addTask(taskDescription, dueDate, estimatedTime, priorityRating, comple
   renderTask(task);
 }
 
-function renderTask(task){
+function renderTask(task) {
   // Create HTML elements
   let item = document.createElement("li");
   item.innerHTML = "<p>" + task.taskDescription + "</p>";
@@ -52,7 +52,7 @@ function renderTask(task){
   item.appendChild(delButton);
 
   // Event Listeners for DOM elements
-  delButton.addEventListener("click", function(event){
+  delButton.addEventListener("click", function (event) {
     event.preventDefault();
     item.remove();
   })
