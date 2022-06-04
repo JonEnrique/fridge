@@ -37,6 +37,12 @@
   text-decoration: none;
 }
 
+body{
+    color: #fff;
+    font-family: 'Nunito Semibold';
+    text-align: left;
+}
+
 #content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
