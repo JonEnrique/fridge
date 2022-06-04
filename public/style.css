@@ -63,7 +63,7 @@ body{
 }
 
 #content div:nth-child(even){
-    background: #3bbced;
+    background: #ffffff;
 }
 
 @media screen and (max-width: 512px) {
