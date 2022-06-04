@@ -110,13 +110,10 @@ label {
 
 input {
   height: 30px;
+  width: +250px;
   margin-top: 5px;
   border-radius: 5px;
   border: 0;
-}
-
-seven > input {
-  width: 250px;
 }
 
 select {
