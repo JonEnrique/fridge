@@ -31,7 +31,7 @@
 
 #navbar__logo {
   background-color: #fff;
-  color: #7fb7cf;
+  color: #3bbced;
   font-weight: bold;
   margin: 0 auto;
   margin-top: 30px;
@@ -58,7 +58,7 @@ body {
 }
 
 #content div {
-  background: #ffffff;
+  background: #3bbced;
   padding: 30px;
   border-radius: 40px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
