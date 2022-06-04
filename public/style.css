@@ -77,7 +77,7 @@ body{
   background-image: url(images/ducks.jpg);
 }
 
-.four {
-  grid-column: 7 / 9;
+.two {
+  grid-column: 3 / 5;
   background-image: url(images/ducks.jpg);
 }
