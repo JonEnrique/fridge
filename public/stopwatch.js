@@ -41,4 +41,4 @@ buttonReset.onclick = function (){
     seconds = "00";
     appendSeconds.innerHTML = seconds;
     appendTens.innerHTML = tens;
-}
+};
