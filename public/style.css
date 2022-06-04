@@ -67,7 +67,7 @@ body{
 }
 
 @media screen and (max-width: 512px) {
-  .wrapper {
-      grid-template-columns: 1fr;
-  }
+    .content {
+        grid-template-columns: 1fr;
+    }
 }
