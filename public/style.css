@@ -82,6 +82,16 @@ body{
   grid-row: 1 / 3;
 }
 
+.section {
+  height: 100vh;
+  padding: 35px;
+
+  background: rgb(243, 243, 243);
+  color: #131313;
+  font-family: "Montserrat", sans-serif;
+}
+
+
 .three {
   grid-column: 5 / 7;
 }
