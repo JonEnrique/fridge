@@ -92,7 +92,7 @@ body{
 }
 
 label {
-  color: rgb(0, 0, 0);
+  color: #7fb7cf;
   margin-top: 10px;
   display: block;
 }
@@ -141,6 +141,10 @@ select {
   grid-row: 3 / 5;
 }
 
+#content div:nth-child(7){
+  background: #7fb7cf;
+}
+
 .container {
   margin: 5px auto;
   color: #fff;
@@ -161,8 +165,8 @@ button {
   width: 100px;
   height: 30px;
   background: transparent;
-  color: #3bbced;
-  border: 2px solid #3bbced;
+  color: #fff;
+  border: 2px solid #fff;
   border-radius: 5px;
   margin-top: 10px;
   margin-right: 10px;
@@ -171,7 +175,7 @@ button {
 
 button:hover{
   background: #fff;
-  color: #3bbced;
+  color: #7fb7cf;
   font-weight: 800;
   text-transform: capitalize;
 }
