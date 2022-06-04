@@ -46,7 +46,7 @@ body{
 #content{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(10, minmax(200px, auto));
+    grid-template-rows: repeat(10, minmax(150px, auto));
     /* grid-auto-rows: minmax(200px, auto); */
     grid-column-gap: 35px;
     grid-row-gap: 35px;
