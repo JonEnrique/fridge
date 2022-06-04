@@ -18,9 +18,41 @@
 <div id = "content">
 
   <div class="one"> </div>
-  <div class="two"> Go to your Github account (Links to an external site.) in a web browser (create one if you haven't already)
-    Create a new repository through the web interface, name your repository "portfolio". Make sure you check "Initialize this repository with a README" and leave the repo public.
-    Inside your repo,  </div>
+  <div class="two"> 
+    
+    <figure class="clock">
+      <div class="mins">0</div>
+      <div>:</div>
+      <div class="secs">00</div>
+      <audio
+        src="http://soundbible.com/mp3/service-bell_daniel_simion.mp3"
+      ></audio>
+      <svg class="progress-ring" height="120" width="120">
+        <circle
+          class="progress-ring__circle"
+          stroke-width="8"
+          fill="transparent"
+          r="50"
+          cx="60"
+          cy="60"
+        />
+      </svg>
+    </figure>
+
+    <div class="btn-group">
+      <button class="start">start focus</button>
+      <button class="reset">reset</button>
+      <button class="pause">pause</button>
+    </div>
+
+    <form action=".">
+      <label for="focusTime">Focus Time</label>
+      <input type="number" value="1" id="focusTime" />
+      <label for="breakTime">Break Time</label>
+      <input type="number" value="1" id="breakTime" />
+      <button type="submit">Save settings</button>
+    </form>
+  </div>
   <div class="three"> 3 </div>
   <div class="four"> <form id="taskform">
     <label for="task">Task:</label>
