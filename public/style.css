@@ -78,6 +78,6 @@ body{
 }
 
 .four {
-  grid-column: 6 / 8;
+  grid-column: 7 / 9;
   background-image: url(images/ducks.jpg);
 }
