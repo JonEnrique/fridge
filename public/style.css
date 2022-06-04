@@ -98,7 +98,7 @@ select {
   border: 0;
 }
 
-h2 {
+.four > h2 {
   font-size: 5px;
 }
 
