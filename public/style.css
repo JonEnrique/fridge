@@ -141,7 +141,11 @@ select {
   grid-row: 3 / 5;
 }
 
-#content div:nth-child(7){
+.eight {
+  grid-column: 3 / 5;
+}
+
+#content div:nth-child(8){
   background: #7fb7cf;
 }
 
@@ -180,10 +184,6 @@ button:hover{
   text-transform: capitalize;
 }
 
-
-.eight {
-  grid-column: 3 / 5;
-}
 
 @media screen and (max-width: 512px) {
   .content {
