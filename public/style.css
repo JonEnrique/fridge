@@ -71,3 +71,7 @@ body{
         grid-template-columns: 1fr;
     }
 }
+
+.one {
+  background-image: url(images/ducks.jpg);
+}
