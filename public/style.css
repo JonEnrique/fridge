@@ -167,6 +167,7 @@ h1, h2, h3 {
 #seconds,
 #tens {
   font-size: 50px;
+  font-weight: bold;
 }
 
 button {
