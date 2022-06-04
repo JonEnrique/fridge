@@ -13,6 +13,7 @@ body{
     grid-row-gap: 20px;
     max-width: 95%;
     margin: 0 auto;
+    margin-top: 30px;
 }
 
 #content div{
