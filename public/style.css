@@ -129,7 +129,6 @@ select {
   font-size: 20px;
 }
 
-
 .five {
   grid-column: 5 / 7;
 }
@@ -146,6 +145,11 @@ select {
 .seven {
   grid-column: 5 / 7;
   grid-row: 3 / 6;
+}
+
+.seven>h2 {
+  margin-top: 20px;
+  font-size: 20px;
 }
 
 .container {
