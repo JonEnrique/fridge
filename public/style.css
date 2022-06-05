@@ -98,7 +98,7 @@ body {
 }
 
 .wrapper{
-  text-align: left;
+  text-align: right;
   font-size: 20px;
 }
 img{
@@ -108,6 +108,7 @@ img{
   width: 100px;
   text-align: left;
 }
+
 .player{
   margin: 0px;
 }
