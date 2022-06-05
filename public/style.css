@@ -192,7 +192,7 @@ button:hover {
   background-size: cover;
 }
 
-body {
+three > body {
   background-image: linear-gradient(
     0deg,
     rgba(247, 247, 247, 1) 23.8%,
