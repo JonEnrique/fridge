@@ -2,7 +2,7 @@
 
 fridge, as its name suggests, is a digital version of how people use their own fridges; a single space where they can hang all sorts of things - from timers to lists. fridge is a web application version of this. It provides students a comprehensive array of tools that can be employed for effective studying. It performs this with priority for convienciance, utulising a single page to faciliate short navigation paths. Through this, the web application understands the neccessity for study tools that can be passively viewed, accessed and switched between inside a single space.  
 
-## Major Iteration
+## Iterations
 
 the final prototype for fridge differs from its mock-up concept in some major ways. This includes:
 
@@ -12,7 +12,7 @@ fridge now thats greater consideration for the atmosphere and mood it entails. W
 ### Music Player
 While the mock-up version called for an embeded Spotify music player, it was found to be more justiable to employ the music player to instead further enforce the Studio Ghibhli theme. An overwhelmingly majority of students already use other music streaming platforms i.e Spotify and Apple Music that are very well-integregated for stand-by listening. Rather than attempting to be redunant, it would be better to design the music player to fit both the styling and atmosphere of the website it is in. 
 
-### Website Balance and Symmetry
+### Website UI and Balance
 A more minor change was a simplification of overall User Interface elements. For example, the heading 'your space in one tab' in the original mock-up was scrapped entirely. This was to help standardise the grid format of the website which otherwise became unbalanced with the inclusion of the heading. This same reasoning informed the centering of the 'fridge' title which bolsters symmetry in the overall website, synonymous with relaxation and order that studying students would prefer. Finally, it can be noted that the image in the middle column was moved to be last and below the stopwatch, rather than above it as previously conceptualised. This was done as the pomodoro timer would be shorter than expected, and it led to a cluster of images in the top half of the website. Moving the image to the very bottom ensures the images are scattered with balance and respect to the design principles of harmony.
 
 ## Reflection
@@ -34,7 +34,7 @@ Programming with Lam (2021, September 10) *Stopwatch with JavaScript.* [Video Fi
 -- **Music Player** --  
 Shankar, B. (2020) *ipod like music player using HTML CSS and Javascript.* Retrieved from https://riseprogramming.blogspot.com/2020/09/blog-post_23.html
 
--- **Pomodoro Timer** --
+-- **Pomodoro Timer** --  
 abhik b. (2021, January 5) *Mini Javascript Project - Pomodoro Timer with Circular Progress Indicator (Vanilla JS , HTML ,CSS).* [Video File] Retrieved from https://www.youtube.com/watch?v=MtYR2vCs2R0&ab_channel=abhikb and https://github.com/abhik-b/pomodro-timer
 
 -- **Reading List** --  
