@@ -113,10 +113,7 @@ img{
   text-align: center;
 }
 .player{
-  border:2px solid #500ef1;
-  width:220px;
-  border-radius: 10px;
-
+  margin: 20px;
 }
 
 .contols{
