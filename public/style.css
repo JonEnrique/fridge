@@ -115,7 +115,7 @@ img{
 }
 
 .controls{
-  display:inline;
+  display: inline-block;
   margin-top: 20px;
 }
 .volume{
