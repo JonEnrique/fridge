@@ -4,6 +4,8 @@ fridge, as its name suggests, is a digital version of how people use their own f
 
 ## Iterations
 
+![original MockUp](public/originalmockup.png)
+
 the final prototype for fridge differs from its mock-up concept in some major ways. This includes:
 
 ### Theme
