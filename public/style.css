@@ -99,6 +99,7 @@ body {
 
 .wrapper{
   text-align: right;
+  float: right;
   font-size: 20px;
 }
 img{
