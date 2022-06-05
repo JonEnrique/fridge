@@ -118,15 +118,11 @@ img{
   display: inline-block;
   margin-top: 20px;
 }
+
 .volume{
   margin-top: 20px;
 }
 
-.volhead{
-  text-align: center;
-  padding: 10px;
-  border-radius: 10px;
-}
 
 .four {
   grid-column: 1 / 3;
