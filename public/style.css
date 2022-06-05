@@ -115,7 +115,6 @@ img{
 .player{
   border:2px solid #500ef1;
   width:220px;
-  background: -webkit-linear-gradient(130deg,green,blue);
   border-radius: 10px;
 
 }
@@ -126,16 +125,12 @@ img{
 .volume{
   margin-top: 60px;
 }
-#start{
-  background: -webkit-linear-gradient(-105deg,green,blue);
-}
+
 .volhead{
   text-align: center;
   padding: 10px;
-  background: -webkit-linear-gradient(130deg,violet,pink);
   border-radius: 10px;
 }
-
 
 .four {
   grid-column: 1 / 3;
