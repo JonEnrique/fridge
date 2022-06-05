@@ -51,31 +51,24 @@
     </div>
     <div class="three"> 
 
-      <section class="music-container" id="music-container">
-        <section class="music-info">
-          <h2 id="Howl's Moving Castle"></h2>
-          <section class="progress-container" id="progress-container">
-            <section class="progress" id="progress"></section>
-          </section>
-        </section>
-  
-        <audio src="howlsmovingcastle.mp3" id="audio"></audio>
-  
-        <section class="img-container">
-          <img src="howlsmovingcastle.jpg" alt="music-cover" id="cover" />
-        </section>
-        <section class="navigation">
-          <button id="prev" class="action-btn">
-            <i class="fas fa-backward"></i>
-          </button>
-          <button id="play" class="action-btn action-btn-big">
-            <i class="fas fa-play"></i>
-          </button>
-          <button id="next" class="action-btn">
-            <i class="fas fa-forward"></i>
-          </button>
-        </section>
-      </section>
+      <audio src="play.mp3" id="song">
+
+      </audio>
+      <div class="player">
+        <div class="wrapper">MUSIC PLAYER</div><br>
+        <img src="speaker3.jpg" alt=""><br>
+        <div class="contols">
+          <button id="start" onclick="start()">play</button>
+          <button id="stop" onclick="stop()">pause</button>
+        </div>
+      <div class="volume">
+        <div class="volhead">VOLUME</div><br>
+        <button id='up' onclick="up()">+</button>
+        <button id="down" onclick="down()">-</button>
+      </div>
+    
+      </div>
+    
   
       <script src="musicplayer.js"></script>
 
