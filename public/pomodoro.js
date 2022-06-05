@@ -1,49 +1,62 @@
-window.onload = function () {
-    var seconds = 00;
-    var tens = 00;
-    var OutputSeconds = document.getElementById("second");
-    var OutputTens = document.getElementById("tens");
-    var buttonStart = document.getElementById("button-start");
-    var buttonStop = document.getElementById("button-stop");
-    var buttonReset = document.getElementById("button-reset");
-    var Interval;
+/* POMODORO TIMER (abhik b. (2021)) */
 
-    buttonStart.addEventListener('click', () => {
-        clearInterval(Interval);
-        Interval = setInterval(startTimer, 10);  // millisecond 10 = 0.01 second
-    });
+const el = document.querySelector(".clock");
+const bell = document.querySelector("audio");
 
-    buttonStop.addEventListener('click', () => {
-        clearInterval(Interval);
-    });
+const mindiv = document.querySelector(".mins");
+const secdiv = document.querySelector(".secs");
 
-    buttonReset.addEventListener('click', () => {
-        clearInterval(Interval);
-        tens = "00";
-        seconds = "00";
-        OutputSeconds.innerHTML = seconds;
-        OutputTens.innerHTML = tens;
-    });
+const startBtn = document.querySelector(".start");
+localStorage.setItem("btn", "focus");
 
-    function startTimer() {
-        tens++;
-        if (tens <= 9) {
-            OutputTens.innerHTML = "0" + tens;
-        }
+let initial, totalsecs, perc, paused, mins, seconds;
 
-        if (tens > 9) {
-            OutputTens.innerHTML = tens;
-        }
+startBtn.addEventListener("click", () => {
+  let btn = localStorage.getItem("btn");
 
-        if (tens > 99) {
-            seconds++;
-            OutputSeconds.innerHTML = "0" + seconds;
-            tens = 0;
-            OutputTens.innerHTML = "0" + 0;
-        }
+  if (btn === "focus") {
+    mins = +localStorage.getItem("focusTime") || 1;
+  } else {
+    mins = +localStorage.getItem("breakTime") || 1;
+  }
 
-        if (seconds > 9) {
-            OutputSeconds.innerHTML = seconds;
-        }
+  seconds = mins * 60;
+  totalsecs = mins * 60;
+  setTimeout(decremenT(), 60);
+  startBtn.style.transform = "scale(0)";
+  paused = false;
+});
+
+function decremenT() {
+  mindiv.textContent = Math.floor(seconds / 60);
+  secdiv.textContent = seconds % 60 > 9 ? seconds % 60 : `0${seconds % 60}`;
+  if (circle.classList.contains("danger")) {
+    circle.classList.remove("danger");
+  }
+
+  if (seconds > 0) {
+    perc = Math.ceil(((totalsecs - seconds) / totalsecs) * 100);
+    setProgress(perc);
+    seconds--;
+    initial = window.setTimeout("decremenT()", 1000);
+    if (seconds < 10) {
+      circle.classList.add("danger");
     }
+  } else {
+    mins = 0;
+    seconds = 0;
+    bell.play();
+    let btn = localStorage.getItem("btn");
+
+    if (btn === "focus") {
+      startBtn.textContent = "start break";
+      startBtn.classList.add("break");
+      localStorage.setItem("btn", "break");
+    } else {
+      startBtn.classList.remove("break");
+      startBtn.textContent = "start focus";
+      localStorage.setItem("btn", "focus");
+    }
+    startBtn.style.transform = "scale(1)";
+  }
 }

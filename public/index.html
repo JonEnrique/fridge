@@ -13,7 +13,7 @@
 
 <body>
   <!--this simple header also allows users to click on 'fridge.' to refresh the page, and 
-    clear everything, offering an alternate point of interaction within the website itself-->
+  clear everything, offering an alternate point of interaction within the website itself-->
   <nav class="header">
     <div class="header__container">
       <a href="/" id="header__logo">fridge.</a>
@@ -22,47 +22,41 @@
 
   <!--to achieve the fridge magnet mosaic format, I used The Net Ninja's (2017) grid design
   to allow me to create a grid with six columns and multiple rows, using CSS to determine the
-  sizes of each box-->
+  sizes of each box (fridge magnet)-->
   <div id="content">
 
     <!--IMAGE ONE-->
     <div class="one"> </div>
-    
+
     <!--POMODORO TIMER (abhik b. (2021))-->
     <div class="two">
       <figure class="clock">
+        <!--I used <section> as an alternative tag to <div> to prevent my CSS code from
+        styling elements other than the boxes, which I had reserved <div> for-->
         <section class="mins">0</section>
         <section>:</section>
         <section class="secs">00</section>
-        <audio
-          src="http://soundbible.com/mp3/service-bell_daniel_simion.mp3"
-        ></audio>
-        <svg class="progress-ring" height="120" width="120">
-          <circle
-            class="progress-ring__circle"
-            stroke-width="8"
-            fill="transparent"
-            r="50"
-            cx="60"
-            cy="60"
-          />
+        <svg class="progress-ring" height="0" width="0">
+          <circle class="progress-ring__circle" />
         </svg>
       </figure>
-  
+
+      <!--start, reset and pause controls-->
       <section class="btn-group">
-        <button class="start">start focus</button>
-        <button class="reset">reset</button>
-        <button class="pause">pause</button>
+        <button class="start">Start Focus</button>
+        <button class="reset">Reset</button>
+        <button class="pause">Pause</button>
       </section>
-  
+
+      <!--focus and break time user input-->
       <form action=".">
-        <label for="focusTime">Focus Time</label>
+        <label for="focusTime">focus time</label>
         <input type="number" value="1" id="focusTime" />
-        <label for="breakTime">Break Time</label>
+        <label for="breakTime">break time</label>
         <input type="number" value="1" id="breakTime" />
-        <button type="submit">Save settings</button>
+        <button type="submit">save settings</button>
       </form>
-      
+
       <script src="pomsettings.js"></script>
       <script src="pomodoro.js"></script>
       <script src="pomprogress.js"></script>
@@ -149,11 +143,11 @@
       <script src="stopwatch.js"></script>
     </div>
 
-    <!--READING LIST (Roshdy, A. (2021)) -->
+    <!--READING LIST (Roshdy, A. (2021))-->
     <div class="seven">
+
       <section class="container" id="bookmarks-container"></section>
 
-      <!-- Modal -->
       <section class="modal-container" id="modal">
         <section class="modal">
           <i class="fas fa-times close-icon" id="close-model"></i>
@@ -181,7 +175,7 @@
       <script src="readinglist.js"></script>
 
     </div>
-    
+
     <!--IMAGE TWO-->
     <div class="eight"> </div>
   </div>

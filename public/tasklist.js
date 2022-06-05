@@ -1,3 +1,5 @@
+/* TASK LIST (Dongas R. (2022)) */
+
 const form = document.getElementById("taskform");
 const button = document.querySelector("#taskform > button")
 var taskInput = document.getElementById("taskInput");

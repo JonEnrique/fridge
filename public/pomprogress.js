@@ -1,49 +1,13 @@
-window.onload = function () {
-    var seconds = 00;
-    var tens = 00;
-    var OutputSeconds = document.getElementById("second");
-    var OutputTens = document.getElementById("tens");
-    var buttonStart = document.getElementById("button-start");
-    var buttonStop = document.getElementById("button-stop");
-    var buttonReset = document.getElementById("button-reset");
-    var Interval;
+/* POMODORO TIMER (abhik b. (2021)) */
 
-    buttonStart.addEventListener('click', () => {
-        clearInterval(Interval);
-        Interval = setInterval(startTimer, 10);  // millisecond 10 = 0.01 second
-    });
+const circle = document.querySelector(".progress-ring__circle");
+const radius = circle.r.baseVal.value;
+const circumference = radius * 2 * Math.PI;
 
-    buttonStop.addEventListener('click', () => {
-        clearInterval(Interval);
-    });
+circle.style.strokeDasharray = circumference;
+circle.style.strokeDashoffset = circumference;
 
-    buttonReset.addEventListener('click', () => {
-        clearInterval(Interval);
-        tens = "00";
-        seconds = "00";
-        OutputSeconds.innerHTML = seconds;
-        OutputTens.innerHTML = tens;
-    });
-
-    function startTimer() {
-        tens++;
-        if (tens <= 9) {
-            OutputTens.innerHTML = "0" + tens;
-        }
-
-        if (tens > 9) {
-            OutputTens.innerHTML = tens;
-        }
-
-        if (tens > 99) {
-            seconds++;
-            OutputSeconds.innerHTML = "0" + seconds;
-            tens = 0;
-            OutputTens.innerHTML = "0" + 0;
-        }
-
-        if (seconds > 9) {
-            OutputSeconds.innerHTML = seconds;
-        }
-    }
+function setProgress(percent) {
+  const offset = circumference - (percent / 100) * circumference;
+  circle.style.strokeDashoffset = offset;
 }

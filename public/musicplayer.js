@@ -1,3 +1,5 @@
+/* MUSIC PLAYER (Shankar, B. (2020))--> */
+
 var a=0.2;
 function start() {
   document.getElementById('song').volume=a;

@@ -1,3 +1,5 @@
+/* STOPWATCH TIMER (Programming with Lam (2021)) */
+
 window.onload = function () {
     var seconds = 00;
     var tens = 00;

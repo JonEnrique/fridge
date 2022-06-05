@@ -27,7 +27,7 @@ Shankar, B. (2020) ipod like music player using HTML CSS and Javascript. Retriev
 abhik b. (2021) Mini Javascript Project - Pomodoro Timer with Circular Progress Indicator (Vanilla JS , HTML ,CSS). Retrieved from https://www.youtube.com/watch?v=MtYR2vCs2R0&ab_channel=abhikb and https://github.com/abhik-b/pomodro-timer
 
 -- Reading List --
-Roshdy, A. (2021) Bookmark-App. Retrieved from https://github.com/Ahmed-Roshdy-1/Bookmark-App
+Roshdy, A. (2021) Bookmark-App. Retrieved from https://www.youtube.com/watch?v=XVed3oGAx3M&t=88s&ab_channel=AhmedRoshdy
 
 -- Overall Grid Layout --
 The Net Ninja (2017) CSS Grid Tutorial #4 - Grid Lines. Retrieved from https://www.youtube.com/watch?v=J5GWyiWU2H8&ab_channel=TheNetNinja
