@@ -30,25 +30,41 @@
     
     <!--POMODORO TIMER (abhik b. (2021))-->
     <div class="two">
-      <section id="pomodoro-app">
-        <section id="pomcontainer">
-          <section id="pomtimer">
-            <section id="pomtime">
-              <span id="pomminutes">25</span>
-              <span id="pomcolon">:</span>
-              <span id="pomseconds">00</span>
-            </section>
-            <section id="filler"></div>
-          </section>
+      <section class="modes">
+        <a class="mode" href="#" data-time="1500">pomodoro</a>
+        <a class="mode" href="#" data-time="300">short break</a>
+        <a class="mode" href="#" data-time="900">long break</a>
+      </section>
+    
+      <section class="get-started">
+        <p>Click a mode to get started</p>
+      </section>
       
-          <section id="pombuttons">
-            <button id="pomwork">Work</button>
-            <button id="pomshortBreak">Short Break</button>
-            <button id="pomlongBreak">Long Break</button>
-            <button id="pomstop">Stop</button>
+      <main>
+        <section class="pomodoro">
+          <h1 class="pomodoro__time"></h1>
+        </section>
+      </main>
+    
+      <section class="tooltip-container">
+        <article class="help__tooltip">
+          <img src="./src/question.svg" alt="Question mark" width="50">
+          <section class="help__tooltip-content">
+            <h2>Pomodoro cycle:</h2>
+            <ul>
+              <li>Pomodoro</li>
+              <li>Short break</li>
+              <li>Pomodoro</li>
+              <li>Short break</li>
+              <li>Pomodoro</li>
+              <li>Long break</li>
+            </ul>
+            <p>Repeat!</p>
           </section>
         </section>
       </section>
+    
+      <audio src="./src/sounds/short-alarm-clock-sound.mp3"></audio>
     
       <script src="pomodoro.js"></script>
     </div>
