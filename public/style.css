@@ -115,6 +115,7 @@ img{
 }
 
 .controls{
+  text-align: right;
   display: inline-block;
   margin-top: 10px;
 }
