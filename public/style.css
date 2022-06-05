@@ -114,7 +114,8 @@ img{
   margin: 0px;
 }
 
-.contols{
+.controls{
+  display:inline;
   margin-top: 20px;
 }
 .volume{
