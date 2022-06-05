@@ -1,10 +1,10 @@
 # Fridge
 
-fridge is a web application that provides students a comprehensive array of tools that can be employed for effective studying. It performs this with priority for convienciance, utulising a single page to faciliate short navigation paths. Through this, the web application understands neccessity for study tools that can be passively viewed, accessed and switched between inside a single space.
+fridge, as its name suggests, is a digital version of how people use their own fridges; a single space where they can hang all sorts of things - from timers to lists. fridge is a web application version of this. It provides students a comprehensive array of tools that can be employed for effective studying. It performs this with priority for convienciance, utulising a single page to faciliate short navigation paths. Through this, the web application understands the neccessity for study tools that can be passively viewed, accessed and switched between inside a single space.  
 
 ## Iteration
 
-the final prototype for fridge differs from its mock-up concept in some of these ways:
+the final prototype for fridge differs from its mock-up concept in these major ways:
 # 1. Theme
 fridge now thats greater consideration for the atmosphere and mood it entails. While its mock-up version borrowed inspiration from the popular Japanese animation film studio 'Studio Ghibli', this was limited to images and colour schemes. This inspiration is further compelled in the final prototype, using the 'sky' motif more in the colour scheme, and extending Studio Ghbili to the music player. All these are employed to construct an atmosphere and mood, reminsent of the calming and peaceful feelings so many enjoy about Studio Ghibli films. It feels only appropriate to embrace students with these feelings to relax them as they study and use the application.
 
