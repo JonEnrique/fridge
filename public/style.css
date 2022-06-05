@@ -102,11 +102,11 @@ body {
   display: inline;
   font-size: 20px;
   padding: 10px;
-  border-radius: 10px;
   width: 130;
 }
 img{
   display:block;
+  border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
   width: 300px;
