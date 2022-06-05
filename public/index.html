@@ -11,30 +11,41 @@
 </head>
 
 <body>
+  <!--this simple header also allows users to click on 'fridge.' to refresh the page, and 
+    clear everything, offering an alternate point of interaction within the website itself-->
   <nav class="header">
     <div class="header__container">
       <a href="/" id="header__logo">fridge.</a>
     </div>
   </nav>
 
+  <!--to achieve the fridge magnet mosaic format, I used The Net Ninja's (2017) grid design
+  to allow me to create a grid with six columns and multiple rows, using CSS to determine the
+  sizes of each box-->
   <div id="content">
 
+    <!--IMAGE ONE-->
     <div class="one"> </div>
+    
+    <!--POMODORO TIMER (abhik b. (2021))-->
     <div class="two">
 
       <figure class="clock">
+        <!--I used <section> as an alternative tag to <div> to prevent my CSS code from
+          styling elements other than the boxes, which I had reserved <div> for-->
         <section class="mins">00</section>
         <section>:</section>
         <section class="secs">00</section>
-        <audio src="http://soundbible.com/mp3/service-bell_daniel_simion.mp3"></audio>
       </figure>
 
+      <!--start, reset and pause controls-->
       <section class="btn-group">
         <button class="start">Start</button>
         <button class="reset">Reset</button>
         <button class="pause">Pause</button>
       </section>
 
+      <!--focus and break time user input-->
       <form action=".">
         <label for="focusTime">focus time</label>
         <input type="number" value="1" id="focusTime" />
@@ -48,15 +59,22 @@
       <script src="progress.js"></script>
 
     </div>
+
+    <!--MUSIC PLAYER (Shankar, B. (2020))-->
     <div class="three">
 
+      <!--audio and image-->
       <audio src="howlsmovingcastle.mp3" id="song"></audio>
       <section class="player">
         <img src="howlsmovingcastle.jpg" alt="">
+        <!--play and pause controls-->
         <section class="controls">
           <button id="start" onclick="start()">Play</button>
           <button id="stop" onclick="stop()">Pause</button>
         </section>
+        <!--volume controls-->
+        <!--volume buttons on websites provide nostalgia to earlier amateur webpages of the 
+        internet, contributing to the Studio Ghibli aesthetic and theme of the same era-->
         <section class="volume">
           <button id='up' onclick="up()">+</button>
           <button id="down" onclick="down()">-</button>
@@ -66,6 +84,8 @@
       <script src="musicplayer.js"></script>
 
     </div>
+
+    <!--TASK LIST (Dongas R. (2022))-->
     <div class="four">
 
       <form id="taskform">
@@ -73,21 +93,19 @@
         <input type="text" name="task" id="taskInput">
 
         <br>
-        <!-- Date input -->
+        <!-- date user input -->
         <label for="dueDate">due date </label>
         <input type="date" name="dueDate" id="dueDateInput">
         <br>
-        <!-- Time input -->
+        <!-- time user input -->
         <label for="completionTime">completion time </label>
         <input type="time" name="completionTime" id="completionTimeInput">
-
         <br>
-
+        <!--estimation time user input-->
         <label for="estimatedTime">estimated completion time (mins)</label>
         <input type="number" name="estimatedTime" id="estimatedTimeInput">
-        <!-- Priority -->
         <br>
-
+        <!-- task priority user input -->
         <label for="priority">task priority</label>
         <select name="prority" id="priorityInput">
           <option value="">Select one</option>
@@ -95,11 +113,9 @@
           <option value="Medium">Medium</option>
           <option value="High">High</option>
         </select>
-
         <br>
 
         <h2> Your Tasks </h2>
-
         <button type="submit">Submit</button>
       </form>
       <ul id="tasklist">
@@ -107,11 +123,16 @@
 
       <script src="tasklist.js"></script>
     </div>
+
+    <!--IMAGE THREE-->
     <div class="five"> </div>
+
+    <!--STOPWATCH TIMER (Programming with Lam (2021))-->
     <div class="six">
 
       <section class="container">
         <p id="time"><span id="second">00</span>:<span id="tens">00</span></p>
+        <!--start, stop and reset buttons-->
         <button id="button-start">Start</button>
         <button id="button-stop">Stop</button>
         <button id="button-reset">Reset</button>

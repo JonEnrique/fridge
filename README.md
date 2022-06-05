@@ -1,12 +1,16 @@
-# studbud
+# Fridge
 
 fridge is a web application that provides students a comprehensive array of tools that can be employed for effective studying. It performs this with priority for convienciance, utulising a single page to faciliate short navigation paths. Through this, the web application understands neccessity for study tools that can be passively viewed, accessed and switched between inside a single space.
 
-## ITERATION
+## Iteration
 
-the final prototype for fridge differs from its mock-up concept through these ways:
+the final prototype for fridge differs from its mock-up concept in some of these ways:
 # 1. Theme
-fridge now thats greater consideration for the atmosphere and mood it entails. While its mock-up version borrowed inspiration from the popular Japanese animation film studio 'Studio Ghibli', this was limited to images and colour schemes. This inspiration is further compelled in the final prototype, using the 'sky' motif more in the colour scheme, and extending Studio Ghbili to the music player. All these are employed to construct an atmosphere and mood, reminsent of the calming and peaceful feelings so many enjoy about Studio Ghibli films. It feels only approprapirate to embrace students with these feelings to relax them as they study and use the application.
+fridge now thats greater consideration for the atmosphere and mood it entails. While its mock-up version borrowed inspiration from the popular Japanese animation film studio 'Studio Ghibli', this was limited to images and colour schemes. This inspiration is further compelled in the final prototype, using the 'sky' motif more in the colour scheme, and extending Studio Ghbili to the music player. All these are employed to construct an atmosphere and mood, reminsent of the calming and peaceful feelings so many enjoy about Studio Ghibli films. It feels only appropriate to embrace students with these feelings to relax them as they study and use the application.
+
+# 2. Music Player
+While the mock-up version called for an embeded Spotify music player, it was found to be more justiable to instead employ the music player to further enforce the Studio Ghibhli theme. An overwhelmingly majority of students already use other music streaming platforms i.e Spotify and Apple Music that are very well-integregated for stand-by listening. Rather than attempting to be redunant, it would be better to design the music player to fit both the styling and atmosphere of the website it is in. 
+
 
 ## CODE REFERENCES 
 
@@ -32,6 +36,8 @@ The Net Ninja (2017) CSS Grid Tutorial #4 - Grid Lines. Retrieved from https://w
 Gowtham Tirri (2020) Build A StopWatch Using Vanilla JavaScript Tutorial. Retrieved from https://www.youtube.com/watch?v=oMwaMYwHkS8
 
 ## ASSET REFERENCES 
+
+Hisaishi, J. (2020) Joe Hisaishi - Merry-Go-Round (from 'Howl's Moving Castle') [Music]. https://www.youtube.com/watch?v=Cj-AL-J98U0&ab_channel=JoeHisaishiVEVO
 
 Studio Ghibli (2004) Howls Moving Castle : Castle Scene [Movie Screenshot] Toho Co., Ltd. https://manofmany.com/entertainment/movies-tv/real-life-howls-moving-castle-studio-ghibli-theme-park
 
