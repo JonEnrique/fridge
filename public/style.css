@@ -117,11 +117,12 @@ img{
 .controls{
   text-align: right;
   display: inline-block;
-  margin-left: 5px;
+  margin-left: 20px;
 }
 
 .volume{
   margin-top: 5px;
+  margin-left: 20px;
 }
 
 .four {
