@@ -1,4 +1,3 @@
-window.onload = function () {
 const el = document.querySelector(".clock");
 const bell = document.querySelector("audio");
 
@@ -58,5 +57,4 @@ function decremenT() {
         }
         startBtn.style.transform = "scale(1)";
     }
-}
 }
